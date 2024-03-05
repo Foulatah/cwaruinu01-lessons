@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORMS</title>
+    <style>
+        .extend{width: 200%}
+        form{background-color: midnightblue;border: 5px solid steelblue;  margin: auto;border-radius: 20px;padding: 20px; margin: auto;width: 30%;margin-top: 150px;color: cornflowerblue}
+        select{padding: 5px}
+
+
+    </style>
+</head>
+<body style="background-image: linear-gradient(to right,purple,midnightblue,blue)">
+<form>
+ <h3>REGISTRATION FORM</h3>
+    <table>
+
+        <!--seccond row-->
+        <tr>
+            <td>
+              <label>first name</label><br>
+                <label>
+                    <input type="text" name="fname">
+                </label>
+            </td>
+            <td>
+                <label>last name</label><br>
+                <label>
+                    <input type="text" name="sname">
+                </label>
+            </td>
+        </tr>
+        <!--second row-->
+        <tr>
+            <td>
+                <label>email address</label><br>
+                <label>
+                    <input type="email" name="email" class="extend">
+                </label>
+            </td>
+        </tr>
+        <!--third row-->
+        <tr>
+            <td>
+              <label>country</label><br>
+
+
+                <label>
+                    <select name="country">
+                        <option>KENYA</option>
+                        <option>TANZANIA</option>
+                        <option>UGANDA</option>
+                    </select>
+                </label></td>
+        </tr>
+        <tr>
+            <td>
+                <label>gender</label><br>
+                <label>
+                    <input type="checkbox" name="gender">
+                </label>
+                <label>
+                    <select>
+                        <option class="extend">MALE</option>
+                        <option class="extend">FEMALE</option>
+                    </select>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>password</label><br>
+                <label>
+                    <input type="password" name="pass" value="submit" class="extend">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" name="save" value="save " class="extend"style="background-color: blue;padding: 10px;border-radius: 10px;margin-top: 5px">
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+
+
+</body>
+</html>

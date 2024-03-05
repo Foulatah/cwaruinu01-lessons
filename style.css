@@ -1,0 +1,16 @@
+
+/*styling image*/
+img{border: 4px solid blue}
+      /*body styling*/
+        body{background-color:darkred}
+        /*paragraph styling*/
+        p{color: darkorange;font-family: "Tibetan Machine Uni";text-shadow: 2px 2px 2px orangered;font-size: large;border: 4px solid darkorange}
+/*heading styling*/
+h1{color: firebrick;font-style: initial}
+        h2{color: black;font-style: italic;font-size: x-large}
+
+.p4{color: orangered;font-family: Kalimati }
+        #p0{color: mediumseagreen}
+        table,tr,th,td{border:10px solid black;width: 50%;height: 50%}
+        table,td,th,tr{border-radius: 20px}
+
